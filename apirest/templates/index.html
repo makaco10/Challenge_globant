@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carga CSV</title>
+</head>
+<body>
+Carga de CSV
+<br>
+
+<form action="/import" method="post" enctype="multipart/form-data">
+    <input type="file" name="csvfile" required>
+    <br>
+    <input type="checkbox" name="skip" value="skip"> Omitir registros existentes
+    <input type="submit">
+</form>
+
+<script>
+
+</script>
+</body>
+</html>
